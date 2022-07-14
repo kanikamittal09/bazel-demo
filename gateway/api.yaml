@@ -9,4 +9,4 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   definition:
-    $text: /Users/kanikamittal/work/backstage_demo/bazel-demo/openapi/calculator.swagger.json
+    $text: https://raw.githubusercontent.com/kanikamittal09/bazel-demo/master/openapi/calculator.swagger.json
