@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Calculator_App
+  description: Everything related to calculator
+  tags:
+    - portal
+spec:
+  owner: Team-A
+  domain: calculator
