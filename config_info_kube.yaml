@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-deployment
+  description: It rolls dice
+  tags:
+    - go
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app=nginx'
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
