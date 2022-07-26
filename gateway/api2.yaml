@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api2
+  description: test api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: Team-B
+  system: Calculator_App
+  definition:
+    $text: https://app.harness.io/prod1/ccm/api/openapi.json
