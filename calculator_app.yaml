@@ -5,6 +5,8 @@ metadata:
   description: Everything related to calculator
   tags:
     - portal
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: Team-A
   domain: calculator
